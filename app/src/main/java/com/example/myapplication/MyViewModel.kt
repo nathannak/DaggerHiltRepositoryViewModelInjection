@@ -16,4 +16,4 @@ class MyViewModel @ViewModelInject constructor(
         return repository.provideString()
     }
 
-    }
+}

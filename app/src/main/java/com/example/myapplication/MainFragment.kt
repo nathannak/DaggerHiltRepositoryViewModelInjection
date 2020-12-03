@@ -24,7 +24,7 @@ class MainFragment : Fragment() {
         val view : View = inflater.inflate(R.layout.fragment_main, container, false)
 
         Toast.makeText(context,viewModel.provideStringFromVM(),Toast.LENGTH_LONG).show()
-        view.fragText.setText("Frsgment: " + viewModel.provideStringFromVM())
+        view.fragText.setText("Fragment: " + viewModel.provideStringFromVM())
 
         return view
     }
